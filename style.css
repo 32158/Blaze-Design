@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+
+  width: 100%;
+  height: 80px;
+  
+}
+
+
+.imagen img{
+  padding: 10px ;
+  width: 200px;
+  margin: 10px;
+  
+  
+}
+.portada img{ width: 30%;
+  margin: 20px;
+  position: relative;
+}
+.portada img:hover{
+  width: 32%;
+  transition: .3s;
+  border-radius: 30px;
+
+}
+.dow{
+ margin: 10px;
+  text-align: center;
+  }
+
+.animar{
+  position: relative;
+  display: inline;
+  border: 2px solid rgb(255, 81, 0);
+  font-size: 150%;
+  color:rgb(255, 81, 0) ;
+  border-radius: 5rem;
+  padding: 0.2rem 2rem;
+  margin-top: 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+
+} 
+.animar:hover{
+  color: rgb(0, 109, 211);
+  border: 2px solid rgb(0, 109, 211);
+  font-size: 35px;
+  transition: .2s;
+}
+.logo{
+  
+}
