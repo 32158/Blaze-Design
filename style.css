@@ -54,6 +54,24 @@ header{
   font-size: 35px;
   transition: .2s;
 }
-.logo{
+
+.anuncio {
+  width: 20%;
+  z-index: 10;
+  top: 0;
+  position: absolute;
+  margin: 10px 10px;
+  flex-wrap: wrap;
+  
+  overflow: hidden;
+ 
+}
+.imag img{
+  padding-top: 10px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+
   
 }
+
